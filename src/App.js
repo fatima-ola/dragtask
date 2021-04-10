@@ -6,8 +6,8 @@ import MapSection from './components/MapSection/MapSection'
 function App() {
   return (
     <div >
-       <ImageSection />
        <MapSection />
+       <ImageSection />
     </div>
   );
 }

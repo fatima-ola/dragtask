@@ -3,3 +3,22 @@
  justify-content: center;
  height: 600px;
 }
+
+.subdivision{
+  margin: 0 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.subdivision img{
+  width: 70px;
+  height: 70px;
+  padding: 20px;
+  transition: transform .2s; 
+}
+
+.subdivision img:hover {
+  transform: scale(1.5);
+  width: 90px;
+  height: 90px; 
+}
