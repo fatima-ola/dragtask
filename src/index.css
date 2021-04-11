@@ -24,15 +24,11 @@
 
 .note{
   text-align: center;
+  padding-bottom: 40px;
 }
-
-
-
 
 .drag-wrapper {
   cursor: move;
   width: 70px;
-  height: 70px;
-  -webkit-transform: rotate(0) scale(1);
-	transform: rotate(0) scale(1);  
+  height: 70px;  
 }
