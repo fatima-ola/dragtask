@@ -1,11 +1,11 @@
 .mapimage{
  display: flex;
  justify-content: center;
- height: 600px;
+ height: 570px;
 }
 
 .subdivision{
-  margin: 0 40px;
+  margin: 0 10px;
   display: flex;
   justify-content: center;
 }
@@ -18,7 +18,18 @@
 }
 
 .subdivision img:hover {
-  transform: scale(1.5);
-  width: 90px;
-  height: 90px; 
+  transform: scale(1.9);
+}
+
+.note{
+  text-align: center;
+}
+
+
+
+
+.drag-wrapper{
+  cursor: move;
+  width: 70px;
+  height: 70px;  
 }

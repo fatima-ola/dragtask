@@ -1,14 +1,15 @@
 import React from 'react';
 import './App.css';
 import ImageSection from './components/ImageSection/ImageSection';
-import MapSection from './components/MapSection/MapSection'
+import MapSection from './components/MapSection/MapSection';
 
-function App() {
+
+const App = () => {
   return (
-    <div >
-       <MapSection />
-       <ImageSection />
-    </div>
+   <div>
+      <MapSection />
+      <ImageSection />
+   </div>
   );
 }
 
