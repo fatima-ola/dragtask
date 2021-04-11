@@ -19,6 +19,7 @@
 
 .subdivision img:hover {
   transform: scale(1.9);
+ 
 }
 
 .note{
@@ -28,8 +29,10 @@
 
 
 
-.drag-wrapper{
+.drag-wrapper {
   cursor: move;
   width: 70px;
-  height: 70px;  
+  height: 70px;
+  -webkit-transform: rotate(0) scale(1);
+	transform: rotate(0) scale(1);  
 }

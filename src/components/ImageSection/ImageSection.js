@@ -8,6 +8,8 @@ import Sylhet from '../../../src/assets/sylhet.jpg';
 import Rajshahi from '../../../src/assets/rajshahi.jpg';
 import Draggable from 'react-draggable';
 
+
+
 const ImageSection = () => {
     return (
       <div className="subdivision">
@@ -32,6 +34,7 @@ const ImageSection = () => {
             <Draggable>
                 <img src={Rajshahi} alt="Rajshahi" className="drag-wrapper"/> 
             </Draggable>
+            
       </div>
     )
 }
